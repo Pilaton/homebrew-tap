@@ -1,8 +1,8 @@
 class Macsync < Formula
   desc "Easy sync for macOS. Dotfiles, folders, configs — anything"
   homepage "https://github.com/Pilaton/MacSync"
-  url "https://github.com/Pilaton/MacSync/archive/refs/tags/v1.2.1.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  url "https://github.com/Pilaton/MacSync/archive/refs/tags/MacSync-v2.0.1.tar.gz"
+  sha256 "f1253f884446831677d2aefdcce93413662e15c7757b08f1ccaed0d40b5f840b"
   license "MIT"
 
   depends_on :macos
