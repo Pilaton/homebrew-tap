@@ -30,9 +30,20 @@ class Macsync < Formula
 
   def caveats
     <<~EOS
-      Config file will be created at ~/.macsync/config.cfg on first run.
-      
-      Edit it to set your sync folder and files to sync.
+      #{Tty.bold}#{Tty.cyan}════════════════════════════════════════════════════════════════#{Tty.reset}
+      #{Tty.bold}📋 Configuration Required#{Tty.reset}
+      #{Tty.bold}#{Tty.cyan}════════════════════════════════════════════════════════════════#{Tty.reset}
+
+      #{Tty.bold}📝 Config file will be created automatically on first run:#{Tty.reset}
+         #{Tty.cyan}~/.macsync/config.cfg#{Tty.reset}
+
+      #{Tty.bold}⚙️  Edit it to configure:#{Tty.reset}
+         • Sync folder (#{Tty.underline}SYNC_FOLDER#{Tty.reset})
+         • Files to sync (#{Tty.underline}BACKUP_FILES#{Tty.reset})
+
+      #{Tty.bold}📖 Full documentation:#{Tty.reset} #{homepage}
+
+      #{Tty.bold}#{Tty.cyan}════════════════════════════════════════════════════════════════#{Tty.reset}
     EOS
   end
 
